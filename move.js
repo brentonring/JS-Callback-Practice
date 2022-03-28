@@ -53,6 +53,7 @@ function move(element) {
         document.addEventListener('keyup', function(e) {
         direction = null
         callback(direction)
+        character.src = 'assets/green-character/static.gif'
     })
     
     }
